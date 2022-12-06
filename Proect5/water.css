@@ -12,8 +12,6 @@
     display: flex; 
     justify-content: space-between;
     position: fixed;
-
-   
 }
 
 .name {
@@ -24,7 +22,6 @@
     line-height: 57px;
 
     color: #e50043;  
-
 }
 
 .menu {
@@ -62,6 +59,7 @@ a:hover, a:active {
     height: 950px; 
     background-size: cover;
     justify-content: center;
+    align-items: center;
 }
 
 .nadpis {
@@ -70,13 +68,10 @@ a:hover, a:active {
     font-weight: 400;
     font-size: 100px;
     line-height: 115px;
-    display: flex;
-    align-items: center;
+     
     text-align: center;
 
-    color: #E50043;
-
-    margin-top: 140px;    
+    color: #E50043;   
 }
 
 .text1 {
@@ -84,9 +79,8 @@ a:hover, a:active {
     border: 3px solid #F8BFC7;
     border-radius: 20px;
     width: 1040px;
-    height: 280px;
-
-    margin: 150px 199px;
+    
+    margin: 150px auto;
 }
 
 .prodol1 {
@@ -104,23 +98,11 @@ a:hover, a:active {
 
 .bytilki {
     display: flex;
-    margin: 150px 200px;
-    width: 281;
-    height: 863;
+    justify-content: space-between;
+    
+    margin: 150px auto;
+    width: 1040px;
 
-    margin-bottom: 48px;
-   
-}
-
-.bytilki > .oneb {
-    margin-right: 100px;
-}
-
-.bytilki > .twob {
-    margin-right: 100px;
-}
-
-.opis {
     font-family: 'Arial';
     font-size: 25px;
     line-height: 29px;
@@ -129,39 +111,20 @@ a:hover, a:active {
     text-align: center;
 
     color: #000000;
-    height: 58px;
-    margin-left: 216px;
 }
 
-.opis1 {
-    width: 248px;
-}
-
-.opis2 {
-    width: 249px;
-}
-
-.opis3 {
-    width: 237px;
-}
-
-.opis > .opis2 {
-    margin-left: 137px;
-}
-
-.opis > .opis3 {
-    margin-left: 137px;
+p {
+    margin: 48px;
 }
 
 .text2 {
     border: 3px solid #F8BFC7;
     border-radius: 20px;
     width: 1040px;
-    height: 280px;
 
     padding: 30px;
 
-    margin: 156px 199px;
+    margin: 156px auto;
 
     font-family: 'Arial';
     font-size: 25px;
@@ -177,8 +140,6 @@ a:hover, a:active {
     width: 749px;
     height: 220px;
     margin-left: 80px;
-    
-
 }
 
 .str1 {
@@ -196,14 +157,11 @@ a:hover, a:active {
 }
 
 .konec {
-    
-    height: 140px;
     padding: 50px;
     display: flex;
 
     justify-content: space-between;
     position: initial;
-
 
     background: #F8BFC7;
 }
